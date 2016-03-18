@@ -2,7 +2,7 @@
 Lab 4 - Function Practice
 
 # Functions available to you to test out:
-# First, open the developer console within the browser.
+## First, open the developer console within the browser.
 
 -Add two numbers together by typing in the two numbers like this:  
 - sum(number1, number2)  
