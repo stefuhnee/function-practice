@@ -22,11 +22,11 @@ function sumAndMultiply(num1, num2, num3) {
 };
 
 // Problem 4 - returns the sum of numbers within an array.
-var currentSum = 0;
 function sumArray(arrayOfNums) {
+  var currentSum = 0;
   for (var i = 0; i < arrayOfNums.length; i++){
-    var currentNum = arrayOfNums[i];
-    currentSum += currentSum;
-    return currentSum;
+    currentNum = arrayOfNums[i];
+    currentSum += currentNum;
   }
+  console.log(arrayOfNums + ' was passed in as an array of numbers, and ' + currentSum + ' is their sum.');
 }
