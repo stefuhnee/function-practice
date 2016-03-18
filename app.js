@@ -19,4 +19,14 @@ function sumAndMultiply(num1, num2, num3) {
   console.log(num1 + ' and ' + num2 + ' and ' + num3 + ' sum to ' + summed);
   console.log('The numbers ' + num1 + ' and ' + num2 + ' and ' + num3 + ' have a product of ' + multiplied);
   return [summed, multiplied];
+};
+
+// Problem 4 - returns the sum of numbers within an array.
+var currentSum = 0;
+function sumArray(arrayOfNums) {
+  for (var i = 0; i < arrayOfNums.length; i++){
+    var currentNum = arrayOfNums[i];
+    currentSum += currentSum;
+    return currentSum;
+  }
 }
