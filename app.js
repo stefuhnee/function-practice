@@ -25,8 +25,7 @@ function sumAndMultiply(num1, num2, num3) {
 function sumArray(arrayOfNums) {
   var currentSum = 0;
   for (var i = 0; i < arrayOfNums.length; i++){
-    currentNum = arrayOfNums[i];
-    currentSum += currentNum;
+    currentSum += arrayOfNums[i];
   }
   console.table(arrayOfNums);
   console.log(arrayOfNums + ' was passed in as an array of numbers, and ' + currentSum + ' is their sum.');
@@ -37,8 +36,7 @@ function sumArray(arrayOfNums) {
 function multiplyArray(arrayOfNums) {
   var currentProduct = 1;
   for (var i = 0; i < arrayOfNums.length; i++){
-    currentNum = arrayOfNums[i];
-    currentProduct *= currentNum;
+    currentProduct *= arrayOfNums[i];
   }
   console.table(arrayOfNums);
   console.log('The numbers ' + arrayOfNums + ' have a product of ' + currentProduct + '.');
