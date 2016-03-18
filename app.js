@@ -28,6 +28,7 @@ function sumArray(arrayOfNums) {
     currentNum = arrayOfNums[i];
     currentSum += currentNum;
   }
+  console.table(arrayOfNums);
   console.log(arrayOfNums + ' was passed in as an array of numbers, and ' + currentSum + ' is their sum.');
   return currentSum;
 }
@@ -39,6 +40,7 @@ function multiplyArray(arrayOfNums) {
     currentNum = arrayOfNums[i];
     currentProduct *= currentNum;
   }
+  console.table(arrayOfNums);
   console.log('The numbers ' + arrayOfNums + ' have a product of ' + currentProduct + '.');
   return currentProduct;
 }
